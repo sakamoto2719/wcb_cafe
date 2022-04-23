@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/*共通*/
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    font-size: 75.5%;
+    text-align: center;
+}
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+    color: #443322;
+    background: url(img/main-bg02.jpg) top center / cover no-repeat; 
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #443322;
+}
+
+header {
+    padding: 3% 15% 20%;
+}
+
+h1 {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    line-height: 0;
+}
+
+h1 img {
+    width: 100%;
+}
+
+h1 a {
+    display: block;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul a {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+main {
+    margin-bottom: 30%;
+    
+}
+
+main h2 {
+    padding: 0 10%;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-bottom: 5%;
+   
+}
+
+main p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-bottom: 7%;
+    line-height: 1.5;
+    padding: 0 5%;
+}
+
+button {
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+    background-color: #00bbdd;
+    font-size: 1.3rem;
+    padding: 3% 8%;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+/*共通*/
+
+footer {
+    background-color: #443322;
+    color: white;
+    font-size: 0.3rem;
+    padding: 3%;
+    
+}
+
+/*PC*/
+@media screen and (min-width: 1025px) {
+    body {
+        background: url(img/main-bg.jpg) top center / cover no-repeat;
+    }
+   
+    header {
+        padding: 3% 10% 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    h1 {
+        width: 20%;
+        margin: 0;
+    }
+    
+    header nav {
+        width: 30%;
+    }
+    
+    header ul a {
+        font-size: 1.5rem;
+    }
+    
+    main {
+        padding: 0 15%;
+    }
+    
+    main h2 {
+        padding: 0;
+        font-size: 7rem;
+        margin-bottom: 1.5%;
+    }
+    
+    main p {
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 1.8rem;
+        padding: 0;
+        margin-bottom: 3%;
+    }
+    
+    button {
+        font-size: 2rem;
+        padding: 2% 4%;
+    }
+    
+    /*共通*/
+    
+    footer {
+        font-size: 1rem; 
+    }
+}
