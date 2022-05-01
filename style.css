@@ -495,11 +495,12 @@ footer {
             
         }
 
+    #home header a,    
     #news header a,
     #menu header a,
     #contact header a {
         font-size: 2.25rem;
-    }     
+    }   
 
     #news main,
     #menu main {
